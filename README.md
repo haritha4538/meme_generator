@@ -1,6 +1,6 @@
 # Hack Culprit Virtual Internship - Project Report
 
-## Project Title: [Insert Project Title Here]
+## Project Title: [Meme Generator]
 
 ### Submitted by:
 **Name:** [Haritha Kurada]  
