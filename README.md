@@ -3,36 +3,34 @@
 ## Project Title: [Insert Project Title Here]
 
 ### Submitted by:
-**Name:** [Your Full Name]  
+**Name:** [Haritha Kurada]  
 **Internship Role:** Virtual Intern  
 **Organization:** Hack Culprit  
-**GitHub Profile:** [@yourusername](https://github.com/yourusername)  
-**Project Duration:** [Start Date] – [End Date]  
-**Project Repository:** [GitHub Repo URL]
-
+**GitHub Profile:** [@haritha4538](https://github.com/haritha4538)  
+**Project Duration:** [01/05/2025] – [31/05/2025]  
+**Project Repository:** [https://github.com/haritha4538/meme_generator]
 ---
 
 ## 1. Executive Summary
 
-This document outlines the design, development, and implementation of the project titled **"[Project Title]"**, undertaken as part of the Hack Culprit Virtual Internship. The objective was to build a practical, technically sound solution using modern tools and frameworks. The project enhances key skills such as problem-solving, collaboration through GitHub, and real-world application of theoretical knowledge.
+This document presents the design and development of a project titled "Universal Meme Generator", created as part of the Hack Culprit Virtual Internship. The project aims to simplify meme creation by allowing users to generate humorous and engaging memes using their own images and custom text. The development process involved applying core Python programming skills along with image manipulation libraries to build a lightweight yet functional application. This project enhanced problem-solving ability, creativity, and practical application of learned concepts in a real-world context.
 
 ---
 
 ## 2. Problem Statement
 
-[Briefly describe the challenge or gap the project addresses.]
-
-*Example:*  
-In the current digital landscape, users often struggle to securely manage numerous passwords. This project provides a lightweight, user-friendly password manager leveraging secure encryption methods to store credentials locally.
+In the age of social media, memes have become a powerful medium for entertainment and expression. However, most online meme generators are either cluttered with ads, have limited templates, or require internet access. There is a need for a simple offline meme generator that allows users to add customized text to any image quickly.
 
 ---
 
 ## 3. Project Objectives
 
-- To gain practical exposure to full-cycle software development  
-- To apply learned concepts in a real-world scenario  
-- To utilize version control and collaborative tools effectively  
-- To develop a feature-rich application that addresses a real problem  
+- Build a user-friendly meme generator tool using Python.
+- Enable users to insert top and bottom text on any image.
+- Save the generated meme locally with a unique name.
+- Practice real-world development workflow using GitHub.
+
+
 
 ---
 
@@ -41,9 +39,9 @@ In the current digital landscape, users often struggle to securely manage numero
 The project was completed in four key stages:
 
 - **Requirement Analysis & Planning** – Defined scope, tools, and expected outcomes  
-- **Development** – Coded core functionalities using [Tech Stack]  
+- **Development** – Coded core functionalities using pillow  
 - **Testing & Debugging** – Iterative bug fixes and feature validation  
-- **Documentation & Deployment** – Professional README and project structure  
+- **Documentation & Deployment** – Professional README and project structure  for clarity and submission
 
 ---
 
@@ -51,10 +49,10 @@ The project was completed in four key stages:
 
 | Category        | Tools / Technologies Used          |
 |----------------|------------------------------------|
-| Programming    | Python, JavaScript, HTML, CSS      |
-| Frameworks     | Flask / React / Bootstrap          |
-| Database       | SQLite / Firebase / MongoDB        |
-| Tools          | Git, GitHub, VS Code, Postman      |
+| Programming    | Python      |
+| Frameworks     | Pillow         |
+| Database       | No Database used     |
+| Tools          | Git, GitHub, VS Code, Pydroid3      |
 
 ---
 
@@ -64,16 +62,16 @@ To run this project locally, follow the steps below:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/haritha4538/meme_generator.git
 
 # Navigate to the project directory
-cd project-name
+cd meme_generator
 
 # Install dependencies
-pip install -r requirements.txt
+pip install - pillow
 
 # Run the application
-python app.py
+meme_generator.py
 
 > Note: Ensure all required dependencies listed in requirements.txt are installed.
 ```
@@ -81,49 +79,47 @@ python app.py
 
 ## 7. Key Features
 
-Responsive and mobile-friendly interface
+Add top and bottom text to any image.
 
-Secure login and authentication module
+Automatically saves memes with a timestamp.
 
-Real-time functionality with database integration
+Works offline, no ads or internet needed.
 
-Clean codebase with comments and modular structure
+Clear and readable text formatting.
 
+Simple interface via command-line prompts.
 
 
 ---
 
 ## 8. Demonstration
 
-Provide relevant screenshots or a demo video:
-
-
-You can also link to a hosted version or video walkthrough.
+![image](https://github.com/user-attachments/assets/2931e8f1-03ae-42d1-b6c1-d9d32694f2a6)
 
 
 ---
 
 ## 9. Challenges Encountered
 
-Integrating third-party libraries with minimal documentation
+Handling font errors across different devices (e.g., Android vs Windows).
 
-Implementing secure authentication and data encryption
+Dynamically adjusting text position and size.
 
-Adapting to a new tech stack within limited time
-
+Managing file paths for cross-platform compatibility.
 
 
 ---
 
 ## 10. Scope for Future Enhancements
 
-Deploying the project on cloud (e.g., Heroku, Firebase Hosting)
+Add GUI using Tkinter or PyQt.
 
-Adding advanced user settings and preferences
+Support for emoji and sticker overlays.
 
-Improving performance and scalability for large datasets
+Drag-and-drop interface.
 
-Integrating unit testing for better code quality assurance
+Meme templates with preset styles.
+
 
 
 
@@ -131,7 +127,8 @@ Integrating unit testing for better code quality assurance
 
 ## 11. Conclusion
 
-This internship project significantly contributed to my technical and professional development. It offered a comprehensive experience in applying theoretical concepts to solve real-world problems while adhering to industry standards in code quality and documentation.
+This internship project helped me strengthen my understanding of file handling, image processing, and user interaction via the command line. I gained hands-on experience in version control using GitHub and learned how to organize and document a software project professionally.
+
 
 
 ---
